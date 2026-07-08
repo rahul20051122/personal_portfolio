@@ -1,20 +1,183 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Personal Portfolio Website built using React.js and Vite to showcase my skills, projects, certifications, and professional journey.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 Live Website:
+https://personal-portfolio-sable-rho-69.vercel.app
 
-## React Compiler
+## 👨‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hi, I'm **Koniki Rahul Kumar**, a passionate Computer Science and Engineering student interested in:
 
-## Expanding the Oxlint configuration
+- Full Stack Development
+- Artificial Intelligence
+- Web Development
+- Software Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# personal_portfolio
->>>>>>> 45e4ae2259424eb75bfa28edcdf1bb4cd455b94a
+I enjoy building modern web applications and solving real-world problems using technology.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+### Libraries Used
+- React Icons
+- Framer Motion
+
+### Deployment
+- Vercel
+
+---
+
+## ✨ Features
+
+- Modern and Professional UI
+- Fully Responsive Design
+- Hero Section with Profile Image
+- About Me Section
+- Skills Section
+- Projects Showcase
+- Certificates Section
+- Contact Section
+- Smooth Animations
+- Glassmorphism Design
+- Mobile Friendly Layout
+
+---
+
+## 📂 Project Structure
+
+```text
+personal_portfolio/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Projects Included
+
+### Smart Attendance System
+A Flask-based Smart Attendance Management System using Face Recognition technology to automate attendance tracking.
+
+**Technologies Used:**
+- Python
+- Flask
+- OpenCV
+- HTML
+- CSS
+- JavaScript
+
+---
+
+### Responsive Landing Page
+A modern responsive landing page implementing modern web development practices.
+
+**Technologies Used:**
+- HTML
+- CSS
+- JavaScript
+
+---
+
+### Calculator Web Application
+A responsive calculator application capable of performing arithmetic operations with a clean user interface.
+
+**Technologies Used:**
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 💻 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/rahul20051122/personal_portfolio.git
+```
+
+Navigate to project directory:
+
+```bash
+cd personal_portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📜 Certifications
+
+- SkillCraft Technology Web Development Internship
+- NPTEL Programming in Java
+- CodeChef Problem Solving Practice
+
+---
+
+## 📫 Connect With Me
+
+📧 Email:
+konikirahulkumar@gmail.com
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/koniki-rahul-kumar-7a7a8b339
+
+💻 GitHub:
+https://github.com/rahul20051122
+
+🌍 Portfolio:
+https://personal-portfolio-sable-rho-69.vercel.app
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+---
+
+## 👨‍💻 Developed By
+
+**Koniki Rahul Kumar**
+
+Computer Science and Engineering Student  
+Vasireddy Venkatadri International Technological University

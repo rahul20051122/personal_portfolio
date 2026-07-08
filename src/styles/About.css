@@ -1,0 +1,157 @@
+.about-section {
+  min-height: 100vh;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.about-card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main-bio {
+  grid-column: span 2;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.card-icon {
+  font-size: 1.5rem;
+}
+
+.bio-icon {
+  color: var(--accent-primary);
+  filter: drop-shadow(0 0 5px rgba(59, 130, 246, 0.4));
+}
+
+.edu-icon {
+  color: #10b981; /* Green */
+  filter: drop-shadow(0 0 5px rgba(16, 185, 129, 0.4));
+}
+
+.interest-icon {
+  color: #eab308; /* Yellow */
+  filter: drop-shadow(0 0 5px rgba(234, 179, 8, 0.4));
+}
+
+.goal-icon {
+  color: #ec4899; /* Pink */
+  filter: drop-shadow(0 0 5px rgba(236, 72, 153, 0.4));
+}
+
+.card-header h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.2px;
+}
+
+.about-bio-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.about-bio-text strong {
+  color: var(--text-primary);
+}
+
+.education-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.degree {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.department {
+  font-size: 1rem;
+  color: var(--accent-primary);
+  font-weight: 500;
+}
+
+.college {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.location-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.loc-icon {
+  font-size: 0.95rem;
+}
+
+.interests-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.interest-badge {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: var(--transition-smooth);
+}
+
+.interest-badge:hover {
+  background: rgba(59, 130, 246, 0.1);
+  border-color: var(--accent-primary);
+  color: var(--text-primary);
+  transform: translateY(-2px);
+}
+
+.goal-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 992px) {
+  .main-bio {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .main-bio {
+    grid-column: span 1;
+  }
+  
+  .about-card {
+    padding: 24px;
+  }
+}
